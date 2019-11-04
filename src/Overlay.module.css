@@ -1,0 +1,66 @@
+.container{
+  position: absolute;
+  width: 100%;
+  height:100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color:white;
+
+  font-family: oswald;
+  font-size: 2.75vh;
+}
+.parentTop{
+  min-width: 75%;
+  max-width: 75%;
+  min-height: 3cm;
+  max-height: 3cm;
+
+  margin-bottom: 3vh;
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.parentBottom{
+  min-width: 75%;
+  max-width: 75%;
+  min-height: 3cm;
+  max-height: 3cm;
+
+  margin-top: 3vh;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+}
+.quote{
+  overflow: hidden;
+}
+.author{
+  overflow: hidden;
+}
+.fadeIn{
+  opacity:1;
+  animation-name: anim_fadeIn;
+  animation-duration: 4s;
+}
+/* Standard syntax */
+@keyframes anim_fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.fadeOut{
+  opacity:0;
+  animation-name: anim_fadeOut;
+  animation-duration: 1s;
+}
+/* Standard syntax */
+@keyframes anim_fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
