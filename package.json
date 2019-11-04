@@ -9,7 +9,6 @@
     "react-scripts": "3.2.0",
     "three": "^0.110.0"
   },
-  "homepage":"http://zurdge.github.io/quotemap",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -18,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://zurdge.github.io/quotemap",
   "eslintConfig": {
     "extends": "react-app"
   },
